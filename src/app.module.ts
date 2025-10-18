@@ -8,6 +8,7 @@ import { PatientManagementModule } from './domains/patient-management/patient-ma
 import { ClinicalOperationsModule } from './domains/clinical-operations/clinical-operations.module';
 import { HealthcareProfessionalsModule } from './domains/healthcare-professionals/healthcare-professionals.module';
 import { PharmacyModule } from './domains/pharmacy/pharmacy.module';
+import { FinancialModule } from './domains/financial/financial.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { PharmacyModule } from './domains/pharmacy/pharmacy.module';
     ClinicalOperationsModule,
     HealthcareProfessionalsModule,
     PharmacyModule,
+    FinancialModule,
   ],
   controllers: [AppController],
   providers: [AppService],
