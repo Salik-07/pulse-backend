@@ -6,6 +6,7 @@ import { UsersModule } from './core/users/users.module';
 import { SecurityModule } from './core/security/security.module';
 import { PatientManagementModule } from './domains/patient-management/patient-management.module';
 import { ClinicalOperationsModule } from './domains/clinical-operations/clinical-operations.module';
+import { HealthcareProfessionalsModule } from './domains/healthcare-professionals/healthcare-professionals.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { ClinicalOperationsModule } from './domains/clinical-operations/clinical
     SecurityModule,
     PatientManagementModule,
     ClinicalOperationsModule,
+    HealthcareProfessionalsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
