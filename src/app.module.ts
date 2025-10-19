@@ -10,6 +10,7 @@ import { HealthcareProfessionalsModule } from './domains/healthcare-professional
 import { PharmacyModule } from './domains/pharmacy/pharmacy.module';
 import { FinancialModule } from './domains/financial/financial.module';
 import { FacilityManagementModule } from './domains/facility-management/facility-management.module';
+import { CommunicationModule } from './infrastructure/communication/communication.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { FacilityManagementModule } from './domains/facility-management/facility
     PharmacyModule,
     FinancialModule,
     FacilityManagementModule,
+    CommunicationModule,
   ],
   controllers: [AppController],
   providers: [AppService],
